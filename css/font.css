@@ -1,0 +1,82 @@
+/*
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+=     00   00 00 00   00 00 00   00 00 00   00 00 00   00 00    =
+=     00   00    00        00    00    00   00    00   00       =
+=     00   00    00      00      00    00   00    00   00       =
+=     00   00    00    00        00    00   00    00   00       =
+=  00 00   00 00 00   00 00 00   00 00 00   00 00 00   00       =
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
+
+
+/* @font-face {
+    font-family: "DinNextRegular";
+    src: url('../fonts/DinNextRegular.eot');
+    src: url('../fonts/DinNextRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneueltarabic-light.svg#DroidKufi Regular') format('svg'),
+    url('../fonts/DinNextRegular.woff') format('woff'),
+    url('../fonts/DinNextRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: "DinNextBold";
+    src: url('../fonts/DinNextBold.eot');
+    src: url('../fonts/DinNextBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DinNextBold.svg#DroidKufi Regular') format('svg'),
+        url('../fonts/DinNextBold.woff') format('woff'),
+        url('../fonts/DinNextBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Bold.svg#DroidKufi Regular') format('svg'), url('../fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-ExtraLight";
+    src: url('../fonts/Montserrat-ExtraLight.eot');
+    src: url('../fonts/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-ExtraLight.svg#DroidKufi Regular') format('svg'), url('../fonts/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../fonts/Montserrat-Light.eot');
+    src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Light.svg#DroidKufi Regular') format('svg'), url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Medium.svg#DroidKufi Regular') format('svg'), url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Regular.svg#DroidKufi Regular') format('svg'), url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url('../fonts/Montserrat-SemiBold.eot');
+    src: url('../fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-SemiBold.svg#DroidKufi Regular') format('svg'), url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

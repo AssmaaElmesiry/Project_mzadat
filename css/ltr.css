@@ -1,0 +1,382 @@
+/* 100 of 1184 CSS properties converted by rtl.daskhat.ir 
+ These properties should be override originals. 
+ just load rtl css file after original css file.*/ 
+
+/* body {direction:rtl;} */
+
+ul{
+    padding-left: 0;
+}
+
+
+.splash .bgSplash{
+    right: 0;
+    left: auto;
+}
+
+.header{
+    left: 0;
+    right: auto;
+}
+
+.header .topBar .logo{
+    float: left;
+}
+
+.header .topBar .SocialHeader{
+    float: right;
+}
+
+.header .topBar .SocialHeader li{
+    float: right;
+}
+
+.header .topBar .SocialHeader li:not(:last-of-type){
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.header .menuHeader .listMenu{
+    float: left;
+    margin-left: -30px;
+    margin-right: auto;
+}
+
+.header .menuHeader .listMenu li{
+    float: left;
+}
+
+.header .menuHeader .listMenu li .subMenu{
+    left: 0;
+    right: auto;
+}
+
+.header .menuHeader .listMenu li .subMenu.width50 li{
+    float: left;
+}
+
+.header .menuHeader .lang{
+    float: right;
+}
+
+.openMenu{
+    float: left;
+}
+
+.menuMobile{
+    right: 0;
+    left: auto;
+}
+
+.menuMobile .BgClose{
+    right: 0;
+    left: auto;
+}
+
+.menuMobile .menuContent{
+    left: -320px;
+    right: auto;
+}
+
+.menuMobile .menuContent.active{
+    left: 0;
+    right: auto;
+}
+
+.menuMobile .headMenu{
+    padding-right: 21px;
+    padding-left: 0;
+}
+
+.menuMobile .menuContent .changeLang{
+    float: left;
+}
+
+.menuMobile .menuContent .closeX{
+    right: 20px;
+    left: auto;
+}
+
+.menuMobile .menuContent .closeX i{
+    float: right;
+}
+
+.menuMobile .menuContent .menuRes li a i{
+    float: right;
+}
+
+.menuMobile .menuContent .menuRes li a i:before,
+.menuMobile .menuContent .menuRes li .subMenu li a:before
+{
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    display: inline-block;
+}
+
+.menuMobile .menuContent .menuRes li .subMenu li a{
+    padding-left: 40px;
+    padding-right: 0;
+}
+
+.menuMobile .menuContent .menuRes li .subMenu li a:before{
+    left: 8px;
+    right: auto;
+}
+
+.bx-wrapper .bx-viewport{
+    right: 0;
+    left: auto;
+}
+
+.background-slider{
+    right: 0;
+    left: auto;
+}
+
+.slider .imgBg{
+    left: 0;
+    right: auto;
+}
+
+.vision .item .mask{
+    right: 50px;
+    left: auto;
+}
+
+
+.itemHome .mask{
+    left: 0;
+    right: auto;
+}
+
+.itemHome .mask .more{
+    left: calc(50% - 70px);
+    right: auto;
+}
+
+.itemActivities:before{
+    left: 0;
+    right: auto;
+}
+
+.itemActivities .mask{
+    direction: ltr;
+    left: 0;
+    right: auto;
+}
+
+.itemActivities .mask .more{
+    left: 45px;
+    right: auto;
+}
+
+.news .itemNews .img{
+    float: right;
+}
+
+.news .itemNews .img:before{
+    right: 0;
+    left: auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.95) 100% 100%);
+}
+
+.news .itemNews .img:after{
+    right: 0;
+    left: auto;
+    background: linear-gradient(to top, rgba(28,124,87,0.95) 100% 100%);
+}
+
+.news .itemNews .details{
+    float: left;
+}
+
+.news .itemNews .details .time{
+    float: left;
+}
+
+.news .itemNews .details a{
+    float: right;
+}
+
+.footer .titleFooter:before{
+    left: 0;
+    right: auto;
+}
+
+.footer .linksFooter li{
+    float: left;
+}
+
+.footer .footerInfo{
+    text-align: right;
+}
+
+
+.footer .footerInfo ul li a i{
+    float: right;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.footer .footerDown .copyrights{
+    float: left;
+}
+
+.footer .footerDown .logoServers{
+    float: right;
+}
+
+.breadcrumbs:before{
+    left: 0;
+    right: auto;
+}
+
+.breadcrumbs h2:before{
+    left: calc(50% - 20px);
+    right: auto;
+}
+
+.breadcrumbs .bg{
+    left: 0;
+    right: 0;
+}
+
+.ActivitiesPage .titleActiv:before{
+    left: calc(50% - 35px);
+    right: auto;
+}
+
+.Museums .item .desc{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.Museums .item .desc:before{
+    left: 0;
+    right: auto;
+}
+
+.listAgrit li{
+    padding-left: 27px;
+    padding-right: 0;
+}
+
+.listAgrit li:before{
+    left: 0;
+    right: auto;
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+}
+
+.blogDetails .details .content .title{
+    float: left;
+}
+
+.blogDetails .details .content .time{
+    float: right;
+}
+
+.blog .item .mask:before{
+    left: 0;
+    right: auto;
+}
+
+.aboutUs3 .item:before{
+    left: 0;
+    right: auto;
+}
+
+.aboutUs3 .item .bg{
+    left: 0;
+    right: auto;
+}
+
+.agritourism .item .row .col-md-5.left
+{
+	float:right;
+}
+
+.agritourism .item .details .title:before{
+    left: 0;
+    right: auto;
+}
+
+.contactUs .contactForm .bg{
+    left: 0;
+    right: auto;
+}
+
+.contactUs .contactForm:before{
+    left: 0;
+    right: auto;
+}
+
+.inputStyle input:focus ~ span, .inputStyle.active span{
+    left: 0;
+    right: auto;
+}
+
+.inputStyle span{
+    left: 0;
+    right: auto;
+}
+
+.trainingProg .listPorg ul li a{
+    padding-left: 65px;
+    padding-right: 5px;
+}
+
+.trainingProg .listPorg ul li a:before{
+    left: 0;
+    right: auto;
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    line-height: 58px;
+}
+
+.trainingProg .listPorg ul li a:after{
+    right: 0;
+    left: auto;
+}
+
+.trainingProg .desc{
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.trainingProg .desc:before{
+    left: 0;
+    right: auto;
+}
+
+.joinUs img{
+    left: 0;
+    right: auto;
+}
+
+.thingsDetails .titleMap{
+    padding-left: 70px;
+    padding-right: 0;
+}
+
+.thingsDetails .titleMap:before{
+    left: 15px;
+    right: auto;
+}
+
+.thingsDetails .row{
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.carousel-indicators{
+    right: 0;
+    left: 0;
+}
+
+.carousel-indicators .item:before{
+    left: 10px;
+    right: auto;
+}
+
+

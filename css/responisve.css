@@ -1,0 +1,952 @@
+           /*Big Size Screens*/
+           
+           @media (min-width: 1200px) {
+               .respon {
+                   display: none;
+               }
+               .Construction2 .Names {
+                   width: 340px;
+                   background-color: black;
+                   color: #fff;
+                   position: absolute;
+                   right: 0;
+                   top: 165px;
+                   height: 450px;
+                   padding-left: 40px;
+               }
+               .Construction2 .Names h2 {
+                   font-size: 18px;
+                   padding-top: 45px;
+                   padding-bottom: 30px;
+               }
+               .Construction2 .Names ul {
+                   padding-top: 35px;
+               }
+               .Construction2 .Names ul li {
+                   font-size: 14px;
+                   position: relative;
+                   padding-left: 50px;
+                   padding-bottom: 30px;
+               }
+               .Construction2 .Names i {
+                   font-size: 25px;
+                   padding-bottom: 35px;
+               }
+               .Construction2 .Names .flaticon-view::before {
+                   content: "\f107";
+                   font-size: 25px;
+               }
+               .Construction2 .Names ul li::before {
+                   content: "\f106";
+                   position: absolute;
+                   font-family: Flaticon;
+                   font-size: 20px;
+                   border-radius: 100%;
+                   background-color: #141927;
+                   display: block;
+                   width: 35px;
+                   height: 35px;
+                   line-height: 35px;
+                   text-align: center;
+                   left: 0px;
+               }
+               .Construction2 .Names ul li span {
+                   display: block;
+                   color: #929292;
+               }
+           }
+           
+           @media (min-width: 990px) and (max-width: 1200px) {
+               .respon {
+                   display: none;
+               }
+               .itemComing .details .title {
+                   font-size: 17px;
+               }
+               .itemComing .details ul li {
+                   font-size: 13px;
+               }
+               .header .nav .listMenu li a {
+                   padding-left: 30px;
+               }
+               .Slider .bgSlider .item .sliderDetails h2 {
+                   font-size: 30px;
+               }
+           }
+           
+           @media (max-width: 1110px) {
+               .Slider .owl-next,
+               .Slider .owl-prev {
+                   position: absolute;
+                   top: auto;
+                   bottom: -65px;
+                   display: block;
+                   width: 60px;
+                   height: 60px;
+                   line-height: 60px !important;
+                   background-color: #000 !important;
+                   color: #FFF !important;
+                   border-radius: 0 !important;
+                   font-size: 25px !important;
+               }
+               .Slider .owl-next {
+                   left: -5px;
+               }
+               .Slider .owl-prev {
+                   right: -5px;
+               }
+               .Slider .owl-next:hover,
+               .Slider .owl-prev:hover {
+                   background-color: #00B0BD !important;
+               }
+           }
+           /* small Screens & tablets & Smart phone */
+           
+           @media (max-width: 991px) {
+               .Construction2 .tab-content .Slider.total {
+                   width: 380px;
+               }
+               .header .listMenu {
+                   display: none !important;
+               }
+               .header .openMenu {
+                   color: #FFF;
+                   z-index: 999;
+                   font-size: 20px;
+                   cursor: pointer;
+                   display: block;
+                   margin-top: -80px;
+                   border: 2px solid #FFF;
+                   width: 30px;
+                   height: 30px;
+                   text-align: center;
+                   line-height: 27px;
+                   -webkit-transition: all 0.3s;
+                   -moz-transition: all 0.3s;
+                   -o-transition: all 0.3s;
+                   transition: all 0.3s;
+               }
+               .header .nav {
+                   display: flex;
+                   flex-direction: row-reverse;
+                   justify-content: right;
+               }
+               .header .nav .search {
+                   display: none;
+               }
+               .Happening .item {
+                   width: 100%;
+                   padding: 20px;
+               }
+               .Happening .item .mask {
+                   background-color: #1A1F2E;
+                   padding: 20px;
+                   height: 100%;
+                   margin: auto;
+               }
+               .Happening .item .mask img {
+                   width: 100%;
+                   height: 230px;
+               }
+               .Happening .item .mask .share {
+                   margin-top: 15px;
+               }
+               .Happening .item .mask .share li {
+                   font-size: 16px;
+                   padding-right: 15px;
+               }
+               .Happening .item .mask .share li i {
+                   padding-right: 10px;
+               }
+               .Happening .item .mask a .flaticon-share {
+                   color: #fff;
+                   top: 40%;
+                   margin-top: 15px;
+               }
+               .Happening .item .mask .desc {
+                   font-size: 17px;
+                   margin-bottom: 15px;
+               }
+               .Happening .item .mask .clockHappening {
+                   color: #fff;
+               }
+               .Happening .item .mask .auction_container {
+                   overflow: auto;
+                   margin-top: 35px;
+               }
+               .Happening .item .mask .auction_container .auction h5 {
+                   font-size: 15px;
+               }
+               .Happening .item .mask .owner {
+                   font-size: 25px;
+                   color: #fff;
+               }
+               .Slider .bgSlide .item .sliderDetails {
+                   height: 500px;
+               }
+               .Slider .bgSlider .item .sliderDetails h2 {
+                   font-size: 20px;
+                   line-height: 40px;
+                   text-transform: uppercase;
+                   color: #fff;
+                   margin-top: 130px;
+               }
+               .Happening .item .mask .share .live {
+                   background-color: #FF0000;
+                   width: 40px;
+                   height: 20px;
+                   line-height: 20px;
+                   border: none;
+                   border-radius: 2px;
+                   font-size: 10px;
+                   text-transform: uppercase;
+                   color: #fff;
+                   margin-left: 20px;
+                   margin-top: 5px;
+                   margin-right: 20px;
+               }
+               .Happening .category .item div {
+                   font-size: 18px;
+                   color: #fff;
+                   padding-top: 20px;
+                   text-transform: uppercase;
+               }
+               .Happening .category button {
+                   width: 80px;
+                   height: 35px;
+                   background-color: #1A1F2E;
+                   color: #fff;
+                   text-transform: uppercase;
+                   border: none;
+                   margin-left: 240px;
+                   margin-top: 5px;
+                   margin-bottom: 35px;
+                   -webkit-transition: all 0.3s;
+                   -moz-transition: all 0.3s;
+                   -o-transition: all 0.3s;
+                   transition: all 0.3s;
+               }
+               .Auctions-ended .Slider .item {
+                   display: flex;
+                   justify-content: center;
+               }
+               /*login_registration*/
+               .login .tab-content {
+                   width: 100%;
+               }
+               .login .tab-content input {
+                   width: 47%;
+               }
+               /**************************************************
+     ******************* Construction2  **********************
+     ***************************************************/
+               .Construction2 .tab-content .card .details {
+                   display: flex;
+                   flex-direction: column;
+               }
+               .Construction2 .tab-content .card .details ul {
+                   display: flex;
+                   margin-top: 24px;
+                   justify-content: space-around;
+               }
+               .Construction2 .tab-content .card .details ul li {
+                   padding-left: 0px;
+               }
+               .wallet .item .desc.mask.title {
+                   font-size: 20px;
+               }
+               .unseen {
+                   display: none;
+               }
+               .moving {
+                   display: none;
+               }
+               .Coming .container {
+                   width: 100%;
+               }
+               .Coming .Slider .itemComing .mask .CountDownComing span {
+                   width: 60px;
+                   height: 60px;
+                   display: flex;
+                   flex-direction: column
+               }
+               /**************************************************
+     ******************* Respon Slider  **********************
+     ***************************************************/
+               .respon .Slider .itemComing2 .mask .CountDownComing {
+                   display: flex;
+                   justify-content: space-evenly;
+                   width: 100%;
+               }
+               .respon .Slider .itemComing2 .mask .CountDownComing span {
+                   border: 1px solid transparent;
+                   display: flex;
+                   justify-content: space-evenly;
+                   width: 55px;
+                   height: 60px;
+                   background-color: #FFF;
+                   text-align: center;
+                   align-self: center;
+               }
+               .respon .Slider .itemComing2 .mask .clockComing {
+                   display: flex;
+                   justify-content: space-evenly;
+                   position: absolute;
+                   top: 205px;
+                   align-self: center;
+                   color: #9A9A9A;
+                   width: 100%;
+               }
+               .respon .Slider .item .itemComing2 {
+                   background-color: #EEEEEE;
+                   direction: ltr;
+                   -webkit-transition: all 0.3s;
+                   -moz-transition: all 0.3s;
+                   -o-transition: all 0.3s;
+                   transition: all 0.3s;
+               }
+               .respon .Slider .item .itemComing2 .mask .imgItem {
+                   width: 100%;
+                   height: 290px;
+                   position: relative;
+               }
+               .respon .Slider .item .itemComing2 .mask .imgItem:before {
+                   content: "";
+                   position: absolute;
+                   top: 0;
+                   left: 0;
+                   width: 100%;
+                   height: 100%;
+                   background: linear-gradient(rgba(0, 0, 0, 0) 0%, #000 100%);
+                   opacity: 0.64;
+               }
+               .respon .Slider .itemComing2 .mask .clockComing {
+                   display: flex;
+                   justify-content: space-evenly;
+                   position: absolute;
+                   top: 170px;
+                   align-self: center;
+                   color: #9A9A9A;
+                   width: 100%;
+               }
+               .respon .Slider .itemComing2 .mask .CountDownComing {
+                   display: flex;
+                   justify-content: space-evenly;
+                   width: 100%;
+               }
+               .respon .Slider .itemComing2 .mask .CountDownComing span {
+                   border: 1px solid transparent;
+                   display: flex;
+                   flex-direction: column;
+                   width: 60px;
+                   height: 60px;
+                   background-color: #FFF;
+                   text-align: center;
+                   align-self: center !important;
+               }
+               .respon .Slider .itemComing2 .mask .CountDownComing span b {
+                   display: block;
+               }
+               .respon .Slider .itemComing2 .details {
+                   padding: 15px 20px 40px;
+                   display: flex;
+                   flex-direction: column;
+                   background-color: #F8F8F8;
+               }
+               .respon .Slider .itemComing2 .details:hover {
+                   background-color: #1A1F2E;
+                   color: #FFF;
+                   -webkit-transition: all 0.3s;
+                   -moz-transition: all 0.3s;
+                   -o-transition: all 0.3s;
+                   transition: all 0.3s;
+               }
+               .respon .Slider .itemComing2 .details .desc {
+                   color: #848484;
+                   font-size: 16px;
+                   display: flex;
+                   justify-content: space-between;
+               }
+               .respon .Slider .itemComing2 .details .desc h5::before {
+                   content: "\f113";
+                   font-family: Flaticon;
+                   font-size: 25px;
+               }
+               .respon .Slider .itemComing2 .details .title {
+                   font-size: 17px;
+                   color: #000;
+                   padding-bottom: 15px;
+                   padding-top: 15px;
+               }
+               .respon .Slider .itemComing2 .details:hover .title {
+                   color: #fff;
+               }
+               .respon .Slider .itemComing2 .details ul {
+                   margin: 0;
+                   padding: 0;
+               }
+               .respon .Slider .itemComing2 .details ul li {
+                   color: #828282;
+                   font-size: 13px;
+                   padding-bottom: 15px;
+                   -webkit-transition: all 0.3s;
+                   -moz-transition: all 0.3s;
+                   -o-transition: all 0.3s;
+                   transition: all 0.3s;
+               }
+               .respon .Slider .itemComing2 .details ul li span {
+                   padding-left: 15px;
+               }
+               .respon .Slider .itemComing2 .details .description span {
+                   font-family: "Montserrat-SemiBold";
+                   font-size: 14px
+               }
+               .respon .Slider .itemComing2 .details .description .date::before {
+                   content: "\f10a";
+                   font-family: Flaticon;
+                   padding-right: 5px;
+                   font-size: 20px;
+               }
+               .respon .Slider .itemComing2 .details .description .Jewelery::before {
+                   content: "\f108";
+                   font-family: Flaticon;
+                   padding-right: 5px;
+                   font-size: 20px;
+               }
+               .respon .Slider .itemComing2 .details .ViewDetails {
+                   width: 140px;
+                   height: 40px;
+                   line-height: 39px;
+                   text-align: center;
+                   border: 1px solid transparent;
+                   background-color: #00B0BD;
+                   border-radius: 2px;
+                   text-transform: uppercase;
+                   color: #FFF;
+                   font-family: "Montserrat-SemiBold";
+               }
+           }
+           /* Small Screens */
+           
+           @media (min-width: 768px) and (max-width: 991px) {
+               .Happening .item .mask .auction_container {
+                   overflow: auto;
+               }
+               .Happening .item .mask .owner {
+                   font-size: 20px;
+                   color: #fff;
+                   margin-top: 25px;
+               }
+               .partners .Slider .Sliderthree .owl-nav {
+                   display: none;
+               }
+               .login .tabs .tab {
+                   cursor: pointer;
+                   padding: 25px 50px;
+                   width: 100%;
+               }
+           }
+           /* Mobile & Tablets */
+           
+           @media (max-width: 767px) {
+               .wallet .item .desc.mask.title {
+                   font-size: 17px;
+               }
+               .wallet .item .desc.details {
+                   font-size: 15px;
+               }
+               /* .Slider .bgSlider .item .sliderDetails h2 {
+                   font-size: 15px;
+               } */
+               .Construction2 .tab-content .card .reference .Specifications .Guarantee span {
+                   width: 50px;
+                   height: 25px;
+                   margin-left: 0px;
+               }
+               .Construction2 .tab-content .card .reference .Specifications .Status span {
+                   width: 50px;
+                   height: 25px;
+                   margin-left: 15px;
+               }
+               .Related .Slider .owl-theme .owl-nav {
+                   display: none;
+               }
+               .login .tabs .tab {
+                   padding: 25px 55px;
+                   width: 100%;
+               }
+               .Slider .bgSlider .item .sliderDetails h2 {
+                   font-size: 15px;
+               }
+           }
+           /* Tablets */
+           
+           @media (min-width:480px) and (max-width: 767px) {
+               .Auctions-ended .Slider .SliderTwo .itemEnded {
+                   display: flex;
+                   flex-direction: column;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded .imgItem {
+                   width: 100%;
+               }
+               .partners .Slider .Sliderthree .owl-nav {
+                   display: none;
+               }
+               .Construction2 .tab-content .card .desc h2 {
+                   font-size: 15px;
+               }
+               .Construction2 .tab-content .card .clockConstruction span {
+                   width: 60px;
+                   height: 60px;
+                   margin-right: 15px;
+                   padding-top: 15px;
+               }
+               .login .tab-content {
+                   padding: 47px 20px 15px 30px;
+               }
+               .login .tab-content input,
+               .login .tab-content .selectActivity {
+                   width: 46%;
+               }
+               .login .tab-content .join {
+                   display: flex;
+                   align-items: center;
+                   flex-direction: column;
+               }
+               .login .tabs .tab {
+                   padding: 25px 35px;
+               }
+               .wallet {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .wallet .Time {
+                   width: 100%;
+               }
+               .active[data-tab-content] {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .Happening .item .mask {
+                   width: 372px;
+               }
+               .Happening .item .mask .top-section {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .Happening .item .mask img {
+                   width: auto;
+               }
+               .Happening .item .mask .share {
+                   margin-top: 15px;
+               }
+               .Happening .item .mask a .flaticon-share {
+                   color: #fff;
+               }
+               .Happening .item .mask .share li {
+                   font-size: 12px;
+                   padding-right: 15px;
+               }
+               .Happening .item .mask .desc {
+                   font-size: 14px;
+               }
+               .Happening .item .mask .details {
+                   font-size: 12px;
+               }
+               .Happening .item .mask .details .Price::before {
+                   content: "\f109";
+                   font-family: Flaticon;
+                   font-size: 15px;
+                   padding-right: 10px;
+               }
+               .Happening .item .mask .details .date::before {
+                   content: "\f10a";
+                   font-family: Flaticon;
+                   font-size: 15px;
+                   padding-right: 10px;
+               }
+               .Happening .item .mask .middle-section {
+                   display: flex;
+                   flex-direction: column;
+               }
+               .Happening .item .mask .clockHappening {
+                   color: #fff;
+               }
+               .Happening .item .mask .CountDownHappening span {
+                   border: 1px solid transparent;
+                   display: inline-block;
+                   width: 60px;
+                   height: 60px;
+                   font-size: 10px;
+                   background-color: #141927;
+                   text-align: center;
+                   margin-right: 15px;
+                   margin-top: 40px;
+               }
+               .Happening .item .mask .auction_container {
+                   height: 125px;
+                   margin-top: 40px;
+                   overflow: auto;
+                   width: 100%;
+               }
+               .Happening .item .mask .auction_container .auction .auctoinDetails .person li>div {
+                   display: flex;
+               }
+               .Happening .item .mask .auction_container .auction h5 {
+                   font-size: 18px;
+               }
+               .Happening .item .mask .last_section {
+                   display: flex;
+                   flex-direction: column;
+               }
+               .Happening .item .mask .description a {
+                   width: 100%;
+                   height: 50px;
+                   color: #fff;
+                   background-color: #141927;
+                   font-size: 13px;
+                   margin-right: 0px;
+                   border-radius: 5px;
+                   border: none;
+                   display: block;
+                   line-height: 50px;
+                   text-align: center;
+                   margin-bottom: 11px;
+               }
+               .Happening .item .mask .owner {
+                   font-size: 15px;
+                   color: #fff;
+               }
+               .Happening .item .mask .owner::before {
+                   content: "\f10c";
+                   font-family: Flaticon;
+                   font-size: 20px;
+                   padding-right: 5px;
+               }
+               .Construction2 .tab-content .info {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .Construction2 .tab-content .warp {
+                   display: flex;
+                   justify-content: center;
+                   flex-wrap: wrap;
+               }
+               .Construction2 .tab-content .card .details{
+                margin-top: 35px;
+               }
+               .Construction2 .tab-content .Auctioneer ul {
+                   display: flex;
+                   justify-content: space-between;
+                   flex-wrap: wrap;
+               }
+               /* .Slider .bgSlider .item .sliderDetails h2 {
+                   font-size: 10px;
+                   line-height: 25px;
+               } */
+           }
+           /* Mobile */
+           
+           @media (max-width: 479px) {
+                .Auctions-ended .Title{
+                    font-size: 20px;
+                }
+                .Auctions-ended .heading a{
+                    width: 50px;
+                    height: 25px;
+                    line-height: 25px;
+                }
+               .Construction2 .tab-content .info {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .Construction2 .tab-content .Slider.total {
+                   width: 330px;
+               }
+               .Construction2 .tab-content .Slider {
+                   width: 330px;
+               }
+               .nav-tabs>li>a {
+                   font-size: 14px;
+               }
+               .Happening .item .mask {
+                   width: 372px;
+               }
+               .Happening .item .mask .top-section {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .Happening .item .mask img {
+                   width: auto;
+               }
+               .Happening .item .mask .share {
+                   margin-top: 15px;
+               }
+               .Happening .item .mask a .flaticon-share {
+                   color: #fff;
+               }
+               .Happening .item .mask .share li {
+                   font-size: 12px;
+                   padding-right: 15px;
+               }
+               .Happening .item .mask .desc {
+                   font-size: 14px;
+               }
+               .Happening .item .mask .details {
+                   font-size: 12px;
+               }
+               .Happening .item .mask .details .Price::before {
+                   content: "\f109";
+                   font-family: Flaticon;
+                   font-size: 15px;
+                   padding-right: 10px;
+               }
+               .Happening .item .mask .details .date::before {
+                   content: "\f10a";
+                   font-family: Flaticon;
+                   font-size: 15px;
+                   padding-right: 10px;
+               }
+               .Happening .item .mask .middle-section {
+                   display: flex;
+                   flex-direction: column;
+               }
+               .Happening .item .mask .clockHappening {
+                   color: #fff;
+               }
+               .Happening .item .mask .CountDownHappening span {
+                   border: 1px solid transparent;
+                   display: inline-block;
+                   width: 60px;
+                   height: 60px;
+                   font-size: 10px;
+                   background-color: #141927;
+                   text-align: center;
+                   margin-right: 15px;
+                   margin-top: 40px;
+               }
+               .Happening .item .mask .auction_container {
+                   height: 125px;
+                   margin-top: 40px;
+                   overflow: auto;
+                   width: 100%;
+               }
+               .Happening .item .mask .auction_container .auction .auctoinDetails .person li>div {
+                   display: flex;
+               }
+               .Happening .item .mask .auction_container .auction h5 {
+                   font-size: 18px;
+               }
+               .Happening .item .mask .last_section {
+                   display: flex;
+                   flex-direction: column;
+               }
+               .Happening .item .mask .description a {
+                   width: 100%;
+                   height: 50px;
+                   color: #fff;
+                   background-color: #141927;
+                   font-size: 13px;
+                   margin-right: 0px;
+                   border-radius: 5px;
+                   border: none;
+                   display: block;
+                   line-height: 50px;
+                   text-align: center;
+                   margin-bottom: 11px;
+               }
+               .Happening .item .mask .owner {
+                   font-size: 15px;
+                   color: #fff;
+               }
+               .Happening .item .mask .owner::before {
+                   content: "\f10c";
+                   font-family: Flaticon;
+                   font-size: 20px;
+                   padding-right: 5px;
+               }
+               .Happening .category .item div {
+                   font-size: 12px;
+                   color: #fff;
+                   padding-top: 20px;
+                   text-transform: uppercase;
+               }
+               .Slider .bgSlider .item .sliderDetails h2 {
+                   font-size: 13px;
+                   line-height: 30px;
+                   text-transform: uppercase;
+                   color: #fff;
+                   margin-top: -70px;
+               }
+               .Auctions-ended .Slider .SliderTwo .item {
+                   width: 100%;
+               }
+               .Coming .Slider .itemComing .mask .CountDownComing span {
+                   border: 1px solid transparent;
+                   display: flex;
+                   justify-content: space-evenly;
+                   width: 55px;
+                   height: 60px;
+                   background-color: #FFF;
+                   text-align: center;
+                   align-self: center;
+               }
+               .Auctions-ended a {
+                   width: 59px;
+                   height: 35px;
+                   background-color: #1A1F2E;
+                   color: #929292;
+                   text-align: center;
+                   line-height: 35px;
+                   font-size: 16px;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded {
+                   display: flex;
+                   flex-direction: column;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded .imgItem {
+                   width: 100%;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded .details {
+                   margin-left: 35px;
+                   padding-bottom: 25px;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded .details .owner {
+                   padding-bottom: 10px;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded .details .owner .flaticon-share {
+                   padding-right: 10px;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded .details .title {
+                   padding-bottom: 10px;
+               }
+               .Auctions-ended .Slider .SliderTwo .itemEnded .details ul li {
+                   padding-bottom: 10px;
+               }
+               .Auctions-ended .Slider .SliderTwo .item .itemEnded .details .ViewDetails {
+                   text-align: center;
+                   bottom: 0px;
+                   border: 1px solid transparent;
+                   display: block;
+                   width: 120px;
+                   height: 33px;
+                   line-height: 33px;
+                   background-color: #00B0BD;
+                   border-radius: 2px;
+                   text-transform: uppercase;
+                   color: #FFF
+               }
+               .Slider .bgSlider .owl-nav {
+                   display: none;
+               }
+               .Slider .bgSlider .item .sliderDetails a {
+                   margin-top: 0;
+                   position: absolute;
+                   background-color: #00B0BD;
+                   color: #fff;
+                   text-transform: uppercase;
+                   font-size: 13px;
+                   bottom: 140px;
+                   border: none;
+                   border-radius: 3px;
+                   width: 170px;
+                   height: 50px;
+                   line-height: 50px;
+               }
+               .partners .Slider .Sliderthree .owl-nav {
+                   display: none;
+               }
+               .Construction2 .tab-content {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .Construction2 .tab-content .card .clockConstruction span {
+                   width: 60px;
+                   height: 60px;
+                   margin-right: 15px;
+                   padding-top: 15px;
+               }
+               .Construction2 .tab-content .card .details .title {
+                   margin-top: 8px;
+               }
+               .Options .selectSection {
+                   background-color: #0E121E;
+                   position: relative;
+                   z-index: 1;
+                   margin-top: -70px;
+                   margin-bottom: 61px;
+                   display: flex;
+                   flex-direction: column;
+                   padding: 0;
+                   margin-left: 0;
+               }
+               .Options .selectSection .selectStyle {
+                   height: 60px;
+                   position: relative;
+                   border: 1px solid transparent;
+                   background-color: #1A1F2E;
+                   margin-left: 10px;
+                   width: auto;
+                   padding: 0;
+                   margin: 0;
+               }
+               .login .tabs .tab {
+                   padding: 25px 15px;
+                   font-size: 16px;
+               }
+               .login .tabs li::before {
+                   font-size: 15px !important;
+               }
+               .login .tab-content input,
+               .login .tab-content .selectActivity {
+                   width: 100%;
+               }
+               .login .tab-content .join {
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+               }
+               .login .tab-content .join label {
+                   font-size: 12px;
+               }
+               .login .tab-content .join label .checkmark {
+                   left: -25px;
+                   height: 21px;
+                   width: 20px;
+               }
+               .login .tab-content .join label .checkmark::after {
+                   left: 8px;
+                   top: 2px;
+                   width: 6px;
+                   height: 14px;
+               }
+               .wallet {
+                   display: flex;
+                   flex-wrap: wrap;
+               }
+               .wallet .Time {
+                   width: 100%;
+               }
+               .questions .item .title {
+                   font-size: 15px;
+               }
+               .wallet .item .desc.mask.title {
+                   font-size: 13px;
+               }
+               .wallet .item .desc.details {
+                   font-size: 12px;
+               }
+               .Construction2 .tab-content .Auctioneer ul {
+                   display: flex;
+                   justify-content: space-between;
+                   flex-wrap: wrap;
+               }
+               .Construction2 .tab-content .warp {
+                   display: flex;
+                   justify-content: center;
+                   flex-wrap: wrap;
+               }
+               .Construction2 .tab-content .card .details{
+                margin-top: 35px;
+               }
+           }
